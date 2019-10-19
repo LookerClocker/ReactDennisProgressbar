@@ -131,7 +131,6 @@ To begin local development:
 
 1. `npm install`
 2. `npm start`
-2. `npm start`
 3. `npm run build`
 
 The last step starts documentation app as a simple webserver on http://localhost:3000.
