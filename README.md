@@ -142,3 +142,5 @@ The last step starts documentation app as a simple webserver on http://localhost
 You can run `npm run test` to execute the test suite and snapshots.
 
 ## License
+
+Copyright (c) 2019 LookerClocker and individual contributors. Licensed under MIT license, see [LICENSE](LICENSE) for the full license.
