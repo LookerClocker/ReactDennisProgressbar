@@ -16,8 +16,13 @@
     "react-progress",
     "react-component"
   ],
-  "author": "Sasha Kushnir",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:LookerClocker/ReactDennisProgressbar.git"
+  },
+  "homepage": "https://github.com/LookerClocker/ReactDennisProgressbar",
+  "author": "LookerClocker",
+  "license": "MIT",
   "dependencies": {
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
