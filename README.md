@@ -2,6 +2,8 @@
 
 A simple and reusable Progressbar 
 
+![](examples/default_img.png)
+
 ## Installation
 
 The package can be installed via [npm](https://github.com/npm/cli):
@@ -49,20 +51,21 @@ class Example extends React.Component {
 }
 ```
 
-## Configuration
+## Configuration & Examples
 
-The most basic use of the ProgressBar can be described with:
+**The most basic use of the ProgressBar can be described with:**
 
 ```js
 <ProgressBar stepNumber={6} steps={[2,6,4,1,5]}/>
 ```
+![](examples/finalLine.gif)
 
 The main formula to calculate and display percentage is:
 ```js
 let calculatedPercentage = Math.round(100 * this.state.stepNumber / [2,6,4,1,5].reduce((a,b) => a+b));
 ```
 
-You can use `bullets` to visualize steps and substeps. It will split Progressbar into substeps. The number of bullets will be the length of your steps array + 1.
+**You can use `bullets` to visualize steps and substeps. It will split Progressbar into substeps. The number of bullets will be the length of your steps array + 1.**
 ```js
 <ProgressBar
   stepNumber={6}
@@ -70,8 +73,9 @@ You can use `bullets` to visualize steps and substeps. It will split Progressbar
   bullets={true}
 />
 ```
+![](examples/defaulBullets.gif)
 
-You also have possibility to add custom styles to Progressbar:
+**You also have possibility to add custom styles to Progressbar:**
 ```js
 <ProgressBar
   stepNumber={6}
@@ -88,7 +92,7 @@ You also have possibility to add custom styles to Progressbar:
   lineHeight={5}
 />
 ```
-
+![](examples/colorBullets.gif)
 ## How it works
 
 The main point is your **steps array**. For example: we have the following steps array: *[2,6,4,1,5]*. **If you want to use it without bullets**: depends of your step it will calculate and fill the percentage of how many steps left, automatically. Just pass step.
@@ -136,8 +140,5 @@ To begin local development:
 The last step starts documentation app as a simple webserver on http://localhost:3000.
 
 You can run `npm run test` to execute the test suite and snapshots.
-
-### The examples
-
 
 ## License
