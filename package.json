@@ -24,9 +24,7 @@
   "author": "LookerClocker",
   "license": "MIT",
   "dependencies": {
-    "react": "^16.10.2",
-    "react-dom": "^16.10.2",
-    "react-scripts": "^3.2.0"
+    "prop-types": "^15.7.2"
   },
   "resolutions": {
     "enzyme-adapter-react-16": "1.10.0"
@@ -45,6 +43,9 @@
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.15.1",
     "node-sass": "^4.12.0",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-scripts": "^3.2.0",
     "sass-loader": "^8.0.0",
     "style-loader": "^1.0.0",
     "webpack": "^4.41.0",

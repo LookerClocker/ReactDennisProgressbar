@@ -14,7 +14,7 @@ npm install react-dennis-progressbar --save
 
 Will add the ability to install through the *yarn* soon. 
 
-You’ll need to install React and PropTypes separately since those dependencies aren’t included in the package. Below is a simple example of how to use the Progressbar within React.
+You’ll need to install React separately since this dependency isn’t included in the package. Below is a simple example of how to use the Progressbar within React.
 
 ```js
 import React from 'react';
