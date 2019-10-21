@@ -1,4 +1,5 @@
 # React Dennis Progressbar
+[![npm version](https://badge.fury.io/js/react-dennis-progressbar.svg)](https://badge.fury.io/js/react-dennis-progressbar)
 
 A simple and reusable Progressbar 
 
