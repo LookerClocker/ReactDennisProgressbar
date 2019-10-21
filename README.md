@@ -12,7 +12,11 @@ The package can be installed via [npm](https://github.com/npm/cli):
 npm install react-dennis-progressbar --save
 ```
 
-Will add the ability to install through the *yarn* soon. 
+Or via [yarn](https://github.com/yarnpkg/yarn):
+
+```
+yarn add react-dennis-progressbar
+```
 
 You’ll need to install React separately since this dependency isn’t included in the package. Below is a simple example of how to use the Progressbar within React.
 
