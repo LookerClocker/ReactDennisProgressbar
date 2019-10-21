@@ -29,6 +29,10 @@
   "resolutions": {
     "enzyme-adapter-react-16": "1.10.0"
   },
+  "jest": {
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true
+  },
   "devDependencies": {
     "@babel/core": "^7.6.3",
     "@babel/plugin-proposal-class-properties": "^7.5.5",
