@@ -1,6 +1,6 @@
 {
   "name": "react-dennis-progressbar",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Flexible progressbar. Built with pure react. With ability to add substeps between steps",
   "main": "build/index.js",
   "scripts": {
