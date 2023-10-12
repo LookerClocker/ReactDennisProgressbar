@@ -49,11 +49,11 @@ class ProgressBar extends React.Component {
   };
 
   componentDidMount() {
-    this.initProgressBar();
+    this.initProgressBar(); // updated
   }
 
   componentDidUpdate() {
-    if (this.state.indicator === this.props.stepNumber) return;
+    if (this.state.indicator === this.props.stepNumber) return 1;
 
     if (this.state.indicator > this.props.stepNumber) {
       this.setState((state) => {
